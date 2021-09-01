@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML and Forms</title>
+    </head>
+    <body>
+        <h1>HTML and Forms</h1>
+        <form action="https://www.cs.hmc.edu/~rhodes/cgi-bin/query.py">
+            <fieldset id="colors">
+                <label for="color1">Mauve</label>
+                <input type="radio" id="color1">
+                <label for="color2">Pink</label>
+                <input type="radio" id="color2">
+                <label for="color3">Lilac</label>
+                <input type="radio" id="color3">
+                <label for="color4">Indigo</label>
+                <input type="radio" id="color4">
+            </fieldset>
+            <br>
+            <fieldset id="directions">
+                <label for="north">North</label>
+                <input type="radio" id="north">
+                <label for="south">South</label>
+                <input type="radio" id="south">
+                <label for="east">East</label>
+                <input type="radio" id="east">
+                <label for="west">West</label>
+                <input type="radio" id="west">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="Dijkstra">Dijkstra</label>
+                <input type="checkbox" id="Dijkstra" name="box1">
+                <label for="Ford">Bellman Ford</label>
+                <input type="checkbox" id="Ford" name="box2">
+                <label for="Hamilton">Hamilton</label>
+                <input type="checkbox" id="Hamilton" name="box3">
+            </fieldset>
+            <br>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="first">
+            <br>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age">
+            <br>
+            <label for="date">Birthday: </label>
+            <input type="date" id="date" name="date">
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
